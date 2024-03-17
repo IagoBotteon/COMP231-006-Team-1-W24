@@ -1,0 +1,17 @@
+body {
+    background-color: skyblue;
+    font-size: 20px; /* Adjust the value to increase or decrease the text size */
+  }
+  
+  h1 {
+    font-size: 28px; /* Increase the size of h1 headings */
+  }
+  
+  h2 {
+    font-size: 24px; /* Increase the size of h2 headings */
+  }
+  
+  p {
+    font-size: 20px; /* Increase the size of paragraph text */
+  }
+  

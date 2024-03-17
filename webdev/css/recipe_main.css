@@ -1,17 +1,27 @@
 .meal {
-    display: inline-block;
-    margin: 10px;
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
-  }
+  display: inline-block;
+  margin: 10px;
+  width: 200px;
+  vertical-align: top; /* Align meals to the top */
+  text-align: center; /* Center align meal content */
   
-  .meal img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .meal-title {
-    text-align: center;
-    margin-top: 5px;
-  }
+}
+
+.meal img {
+  width: 100%;
+  height: auto;
+}
+
+.meal-title {
+  margin-top: 5px;
+}
+
+.meal-description {
+  margin-top: 15px; /* Adjust margin for spacing between title and description */
+}
+body {
+  background-color: skyblue; /* Set the background color of the entire page to sky blue */
+  font-family: Arial, sans-serif; /* Set the font family for the entire page */
+  margin: 0;
+  padding: 0;
+}
