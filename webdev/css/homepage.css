@@ -79,3 +79,13 @@ header form label {
   display: block;
   margin-bottom: 8px;
 }
+.recipe {
+  text-align: center;
+  padding: 20px;
+  border-right: 1px solid #ccc; /* Add a right border to each cell */
+  width: 33%; /* Set maximum width for each cell to one-third of the container width */
+}
+
+.recipe:last-child {
+  border-right: none; /* Remove the right border from the last cell */
+}

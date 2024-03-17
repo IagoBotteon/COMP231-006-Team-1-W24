@@ -10,11 +10,11 @@
       <img src="banner.jpg" alt="Recipe Website Banner" width="100%" height="auto">
       <nav>
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/recipe_main.html">Recipes</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/contact.html">Contact</a></li>
-          <li><a href="/login.html">Log In</a></li>
+          <li><a href="/webdev/">Home</a></li>
+          <li><a href="/webdev/recipe_main.html">Recipes</a></li>
+          <li><a href="/webdev/about.html">About</a></li>
+          <li><a href="/webdev/contact.html">Contact</a></li>
+          <li><a href="/webdev/login.html">Log In</a></li>
         </ul>
       </nav>
       <form action="/search" method="get">
@@ -37,25 +37,28 @@
     <main>
       <section>
         <h2>Top 3 Recipes</h2>
-        <ul style="display: flex; justify-content: center; list-style: none; padding: 0;">
-          <li style="text-align: center;">
-            <h3>Recipe 1</h3>
-            <p>Description of Recipe 1...</p>
-            <a href="/recipes/recipe1">View Recipe 1</a>
-          </li>
-          <li style="text-align: center;">
-            <h3>Recipe 2</h3>
-            <p>Description of Recipe 2...</p>
-            <a href="/recipes/recipe2">View Recipe 2</a>
-          </li>
-          <li style="text-align: center;">
-            <h3>Recipe 3</h3>
-            <p>Description of Recipe 3...</p>
-            <a href="/recipes/recipe3">View Recipe 3</a>
-          </li>
-        </ul>
-        
-      </section>
+        <table>
+            <tr>
+                <td class="recipe">
+                    <h3>Recipe 1</h3>
+                    <p>A velvety blend of peanut butter, ginger, and garlic, thickened with coconut cream, served with crispy tofu cubes. Inspired by satay, this dish is an enormously satisfying weeknight dinner.</p>
+                    <a href="/webdev/meal1.html">View Recipe 1</a>
+                </td>
+                <td class="recipe">
+                    <h3>Recipe 2</h3>
+                    <p>Grilled chicken thighs make for the ultimate summer grilling experience</p>
+                    <a href="/webdev/meal2.html">View Recipe 2</a>
+                </td>
+                <td class="recipe">
+                    <h3>Recipe 3</h3>
+                    <p>Chili took off in Texas during the late 19th century when Mexican women known as the Chili Queens served it alongside tamales and enchiladas in San Antonio’s Plaza de Armas. Today, an authentic “Texas bowl of red” is just like the Queens’ version, with chunks of meat (not ground) and no beans or tomatoes.</p>
+                    <a href="/webdev/meal3.html">View Recipe 3</a>
+                </td>
+            </tr>
+        </table>
+    </section>
+    
+      
     </main>
   </body>
 </html>
